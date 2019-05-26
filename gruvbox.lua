@@ -1,6 +1,5 @@
 -- Gruvbox color scheme by Pavel Pertsev (https://github.com/morhetz)
 -- For the Vis text editor by Marc Tanner (https://github.com/martanne)
--- Ported by Samuel Wood
 
 -- Set to 'dark' or 'light'
 local mode	= 'dark'
@@ -94,7 +93,7 @@ elseif mode == 'light' then
 end
 
 -- To use your terminal's default background (e.g. for transparency), set the value below to 'back:default,fore:'..colors.fg1
-vis.lexers.STYLE_DEFAULT		= 'back:default,fore:'..colors.fg1
+vis.lexers.STYLE_DEFAULT		= 'back:'..colors.bg0..',fore:'..colors.fg1
 vis.lexers.STYLE_NOTHING		= ''
 vis.lexers.STYLE_CLASS			= 'fore:'..colors.yellow
 vis.lexers.STYLE_COMMENT		= 'fore:'..colors.gray..',italics'
