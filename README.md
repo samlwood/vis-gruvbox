@@ -5,7 +5,7 @@ This is an attempted port of the [original Gruvbox colorscheme](https://github.c
 
     :set theme gruvbox
 
-Or add the following line to your `visrc.lua`
+Or add the following line to your `visrc.lua`:
 
     vis:command('set theme gruvbox')
 
