@@ -1,7 +1,9 @@
 -- Gruvbox color scheme, by Pavel Pertsev (https://github.com/morhetz)
 
-local mode	= "dark"
-local contrast	= "hard"
+-- Set to 'dark' or 'light'
+local mode	= 'dark'
+-- Set to 'hard', 'medium', or 'soft'
+local contrast	= 'hard'
 
 local gruvbox = {
 	dark0h	= '#1d2021',
@@ -37,12 +39,12 @@ local gruvbox = {
 
 local colors = {}
 
-if mode == "dark" then
-	if contrast == "hard" then
+if mode == 'dark' then
+	if contrast == 'hard' then
 		colors.bg0 = gruvbox.dark0h
-	elseif contrast == "medium" then
+	elseif contrast == 'medium' then
 		colors.bg0 = gruvbox.dark0
-	elseif contrast == "soft" then
+	elseif contrast == 'soft' then
 		colors.bg0 = gruvbox.dark0s
 	end
 	colors.bg1	= gruvbox.dark1
@@ -62,12 +64,12 @@ if mode == "dark" then
 	colors.purple	= gruvbox.purple0
 	colors.aqua	= gruvbox.aqua0
 	colors.orange	= gruvbox.orange0
-elseif mode == "light" then
-	if contrast == "hard" then
+elseif mode == 'light' then
+	if contrast == 'hard' then
 		colors.bg0 = gruvbox.light0h
-	elseif contrast == "medium" then
+	elseif contrast == 'medium' then
 		colors.bg0 = gruvbox.light0
-	elseif contrast == "soft" then
+	elseif contrast == 'soft' then
 		colors.bg0 = gruvbox.light0s
 	end
 	colors.bg1	= gruvbox.light1
@@ -89,6 +91,7 @@ elseif mode == "light" then
 	colors.orange	= gruvbox.orange1
 end
 
+-- To use your terminal's default background (e.g. for transparency), set the value below to 'back:default,fore:'..colors.fg1
 vis.lexers.STYLE_DEFAULT		= 'back:default,fore:'..colors.fg1
 vis.lexers.STYLE_NOTHING		= ''
 vis.lexers.STYLE_CLASS			= 'fore:'..colors.yellow
