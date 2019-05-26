@@ -1,4 +1,6 @@
--- Gruvbox color scheme, by Pavel Pertsev (https://github.com/morhetz)
+-- Gruvbox color scheme by Pavel Pertsev (https://github.com/morhetz)
+-- For the Vis text editor by Marc Tanner (https://github.com/martanne)
+-- Ported by Samuel Wood
 
 -- Set to 'dark' or 'light'
 local mode	= 'dark'
