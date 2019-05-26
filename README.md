@@ -1,7 +1,7 @@
 vis-gruvbox
 ===========
 
-This is an attempted port of the [original Gruvbox colorscheme](https://github.com/morhetz/gruvbox) for Vim to the [Vis text editor](https://github.com/martanne/vis). It contains all of the Gruvbox colors used by that colorscheme and can be configured to light or dark mode at any of the pre-built contrast settings. Simply make the adjustments indicated by the comments in the file, move it to `~/.config/vis/themes/` set your theme in Vis as follows:
+This is an attempted port of the [original Gruvbox colorscheme](https://github.com/morhetz/gruvbox) for Vim to the [Vis text editor](https://github.com/martanne/vis). It contains all of the Gruvbox colors used by that colorscheme and can be configured to light or dark mode at any of the pre-built contrast settings. Simply make the adjustments indicated by the comments in the file, move it to `~/.config/vis/themes/`, and set your theme in Vis as follows:
 
     :set theme gruvbox
 
