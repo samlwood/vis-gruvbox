@@ -4,7 +4,7 @@
 -- Set to 'dark' or 'light'
 local mode	= 'dark'
 -- Set to 'hard', 'medium', or 'soft'
-local contrast	= 'hard'
+local contrast	= 'medium'
 
 local gruvbox = {
 	dark0h	= '#1d2021',
@@ -104,7 +104,7 @@ vis.lexers.STYLE_FUNCTION		= 'fore:'..colors.green..',bold'
 vis.lexers.STYLE_KEYWORD		= 'fore:'..colors.red
 vis.lexers.STYLE_LABEL			= 'fore:'..colors.red
 vis.lexers.STYLE_NUMBER			= 'fore:'..colors.purple
-vis.lexers.STYLE_OPERATOR		= 'fore:'..colors.fg1
+vis.lexers.STYLE_OPERATOR		= vis.lexers.STYLE_DEFAULT
 vis.lexers.STYLE_REGEX			= 'fore:'..colors.aqua
 vis.lexers.STYLE_STRING			= 'fore:'..colors.green
 vis.lexers.STYLE_PREPROCESSOR		= 'fore:'..colors.aqua
